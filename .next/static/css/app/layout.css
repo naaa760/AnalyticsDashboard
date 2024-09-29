@@ -1188,6 +1188,12 @@ video {
 .gap-8 {
   gap: 2rem;
 }
+.gap-1 {
+  gap: 0.25rem;
+}
+.gap-2\.5 {
+  gap: 0.625rem;
+}
 .gap-x-1 {
   column-gap: 0.25rem;
 }
@@ -1303,6 +1309,9 @@ video {
   border-radius: 9999px;
 }
 .rounded-tremor-small {
+  border-radius: 0.375rem;
+}
+.rounded-md {
   border-radius: 0.375rem;
 }
 .rounded-b-tremor-default {
@@ -66106,6 +66115,10 @@ video {
   font-size: 0.75rem !important;
   line-height: 1rem !important;
 }
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
@@ -66137,6 +66150,10 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-5xl {
+  font-size: 3rem;
+  line-height: 1;
 }
 .font-bold {
   font-weight: 700;
@@ -68407,6 +68424,10 @@ video {
 .text-dark-tremor-content-emphasis {
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
+}
+.text-dark-tremor-content-strong {
+  --tw-text-opacity: 1;
+  color: rgb(249 250 251 / var(--tw-text-opacity));
 }
 .text-dark-tremor-content-subtle {
   --tw-text-opacity: 1;
@@ -147672,6 +147693,14 @@ video {
     grid-column: span 9 / span 9;
   }
 
+  .sm\:block {
+    display: block;
+  }
+
+  .sm\:grid {
+    display: grid;
+  }
+
   .sm\:h-12 {
     height: 3rem;
   }
@@ -147768,6 +147797,16 @@ video {
   .sm\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-dark-tremor-content-strong {
+    --tw-text-opacity: 1;
+    color: rgb(249 250 251 / var(--tw-text-opacity));
   }
 }
 @media (min-width: 768px) {
